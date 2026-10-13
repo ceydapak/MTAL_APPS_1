@@ -20,17 +20,19 @@ namespace MTAL_APPS_1
 
         private void hesapla_Click(object sender, EventArgs e)
         {
-            double kisaKenar, uzunKenar;
+            double yariCap;
             double alan, cevre;
+            double pi = 3.14; 
 
-            kisaKenar = Convert.ToDouble(kisa.Text);
-            uzunKenar = Convert.ToDouble(uzun.Text);
+            yariCap = Convert.ToDouble(yaricap.Text);
 
-            alan = kisaKenar * uzunKenar;
-            cevre = 2 * (kisaKenar + uzunKenar);
+            alan = pi * yariCap * yariCap;
+            cevre = 2 * pi * yariCap;
 
             aln.Text = alan.ToString();
             cvr.Text = cevre.ToString();
         }
+
+        
     }
 }

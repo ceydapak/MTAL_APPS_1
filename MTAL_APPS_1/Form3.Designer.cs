@@ -41,7 +41,7 @@
             // 
             // hesapla
             // 
-            this.hesapla.Location = new System.Drawing.Point(28, 185);
+            this.hesapla.Location = new System.Drawing.Point(28, 100);
             this.hesapla.Name = "hesapla";
             this.hesapla.Size = new System.Drawing.Size(238, 23);
             this.hesapla.TabIndex = 17;
@@ -51,15 +51,17 @@
             // 
             // ort
             // 
+            this.ort.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ort.Enabled = false;
-            this.ort.Location = new System.Drawing.Point(166, 128);
+            this.ort.Location = new System.Drawing.Point(166, 172);
             this.ort.Name = "ort";
             this.ort.Size = new System.Drawing.Size(100, 20);
             this.ort.TabIndex = 16;
             // 
             // per
             // 
-            this.per.Location = new System.Drawing.Point(166, 97);
+            this.per.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.per.Location = new System.Drawing.Point(166, 141);
             this.per.Name = "per";
             this.per.Size = new System.Drawing.Size(100, 20);
             this.per.TabIndex = 15;
@@ -81,7 +83,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 131);
+            this.label4.Location = new System.Drawing.Point(25, 175);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 12;
@@ -90,7 +92,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 97);
+            this.label3.Location = new System.Drawing.Point(25, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 11;

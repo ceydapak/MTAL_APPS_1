@@ -58,7 +58,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 114);
+            this.label3.Location = new System.Drawing.Point(30, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(25, 168);
+            this.button1.Location = new System.Drawing.Point(25, 117);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(215, 23);
             this.button1.TabIndex = 3;
@@ -90,8 +90,9 @@
             // 
             // total
             // 
+            this.total.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.total.Enabled = false;
-            this.total.Location = new System.Drawing.Point(140, 114);
+            this.total.Location = new System.Drawing.Point(140, 162);
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(100, 20);
             this.total.TabIndex = 6;
