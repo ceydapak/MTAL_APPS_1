@@ -72,3 +72,5 @@
   * **Çözüm:** Sayısal sonucu `Text` özelliğine aktarırken sonuna `.ToString()` eklemeyi unuttun.
 * **Hata:** `Input string was not in a correct format.`
   * **Çözüm:** `TextBox` boşken veya harf yazılıyken hesapla butonuna bastın. İçine sadece sayı girdiğinden emin ol.
+
+  https://www.baamboozle.com/game/4864838
